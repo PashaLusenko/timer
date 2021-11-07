@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { Injectable } from '@angular/core';
 import {
   Observable,
   timer,
@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 import { StopWatch } from './stop-watch.interface';
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root'
 })
 export class TimeService {
   private readonly initialTime = 0;

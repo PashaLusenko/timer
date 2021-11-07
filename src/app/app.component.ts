@@ -10,6 +10,7 @@ import {TimeService} from './timer.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent implements OnDestroy {
   public stopwatch: StopWatch;
   public startBtn = true;

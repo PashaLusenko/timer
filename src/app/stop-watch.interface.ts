@@ -4,3 +4,4 @@ export interface StopWatch {
   hours: string;
   ms: string;
 }
+
