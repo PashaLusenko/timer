@@ -16,5 +16,4 @@ import {TimeService} from './timer.service';
   providers: [TimeService],
   bootstrap: [AppComponent]
 })
-
 export class AppModule { }
